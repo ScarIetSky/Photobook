@@ -1,0 +1,17 @@
+$htmlFont: 16px;
+$footerColor: #3e4049;
+$authorColor: #2667d8;
+$darkColor: #f2f0e8;
+$lightColor: #fbfcfa;
+
+@function rem($px){
+  @return $px / $htmlFont + 0rem
+}
+
+
+@import "header.sass";
+@import "search.sass";
+@import "main-gallery.sass";
+
+
+

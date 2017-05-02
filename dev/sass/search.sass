@@ -1,0 +1,29 @@
+.content__search
+  height: 60px
+  background: #dddddd
+  position: relative
+
+  &:after
+    content: ""
+    clear: both
+    display: table
+  &  input
+    width: rem(300px)
+    height: rem(40px)
+    box-sizing: border-box
+    margin: 10px 10px
+    padding-left: 15px
+    border-radius: rem(20px)
+    border: 1px solid #dddddd
+    background: #fff
+    outline: none
+
+  &  button
+    width: rem(42px)
+    height: rem(42px)
+    background: url("../icons/search.svg") no-repeat
+    border: none
+    position: absolute
+    top: rem(20px)
+    right: 0
+
