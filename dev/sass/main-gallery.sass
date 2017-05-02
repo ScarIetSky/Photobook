@@ -1,7 +1,79 @@
 .world
   background: #fff
+
   &-h2
     margin: 12px
     text-align: center
     font-size: rem(30px)
     line-height: rem(36px)
+
+  &__gallery
+    &_margin
+      margin: rem(30px) 10px 0
+
+    &_img
+      width: rem(300px)
+      height: rem(200px)
+
+.user-info
+  &_margin
+    margin-left: rem(12px)
+
+  &__avatar
+    background: url("../images/no_photo.png") no-repeat
+    width: rem(50px)
+    height: rem(50px)
+
+    &_float
+      float: left
+
+  &__title
+    font-size: rem(14px)
+    line-height: rem(18px)
+    display: block
+    width: rem(240px)
+
+
+    &_padding
+      padding: 10px
+      margin-left: 16px
+
+  &__stats
+    list-style-type: none
+    margin: 7px 0 0 rem(60px)
+
+    &_comments
+      +social-blocks("../icons/comments.svg")
+
+    &_likes
+      +social-blocks("../icons/heart.svg")
+
+    &
+      li
+        display: inline-block
+        padding-left: rem(25px)
+
+  &__album
+    font-size: rem(14px)
+    line-height: rem(18px)
+
+    &:before
+      content: ''
+      float: left
+      +social-blocks("../icons/album.svg")
+      margin-left: rem(50px)
+      padding-left: 10px
+
+    &_edit
+      content: ''
+      float: left
+      +social-blocks("../icons/edit.svg")
+      margin-left: rem(10px)
+
+
+      &-margin
+        margin: 10px 0
+
+
+
+

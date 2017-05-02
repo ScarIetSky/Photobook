@@ -8,10 +8,19 @@ $lightColor: #fbfcfa;
   @return $px / $htmlFont + 0rem
 }
 
+@mixin social-blocks($url) {
+  background: url($url) no-repeat;
+  display: block;
+  width: rem(20px);
+  height: rem(20px);
+}
 
+
+@import "global.sass";
 @import "header.sass";
 @import "search.sass";
 @import "main-gallery.sass";
+@import "footer.sass";
 
 
 

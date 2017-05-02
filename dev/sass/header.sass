@@ -1,13 +1,3 @@
-html
-  font-size: $htmlFont
-
-.body
-  width: rem(320px)
-
-.content
-  width: rem(320px)
-
-
 .header
   width: rem(320px)
   height: rem(240px)
@@ -18,7 +8,7 @@ html
     padding: 0
     margin-left: 11px
 
-    &_logout > a
+    &_logout
       background: url("../images/off.png") no-repeat
       display: block
       width: rem(21px)
@@ -27,7 +17,7 @@ html
       left: 10px
       top: 10px
 
-    &_profile > a
+    &_profile
       background: url("../images/no_photo.png") no-repeat
       background-size: contain
       display: block
@@ -37,7 +27,7 @@ html
       left: 3px
       top: 4px
 
-    &_edit > a
+    &_edit
       background: url("../images/edit.png") no-repeat
       display: block
       width: rem(21px)
@@ -81,38 +71,24 @@ html
     padding: 0
     margin: 0 rem(90px)
 
-    &_email > a
-      background: url("../icons/soc_email.png") no-repeat
-      display: block
-      width: rem(20px)
-      height: rem(20px)
+    &_email
+      +social-blocks("../icons/soc_email.png")
 
-    &_facebook > a
-      background: url("../icons/soc_fb.png") no-repeat
-      display: block
-      width: rem(20px)
-      height: rem(20px)
+    &_facebook
+      +social-blocks("../icons/soc_fb.png")
 
-    &_vk > a
-      background: url("../icons/soc_vk.png") no-repeat
-      display: block
-      width: rem(20px)
-      height: rem(20px)
+    &_vk
+      +social-blocks("../icons/soc_vk.png")
 
-    &_twitter > a
-      background: url("../icons/soc_twitter.png") no-repeat
-      display: block
-      width: rem(20px)
-      height: rem(20px)
+    &_twitter
+      +social-blocks("../icons/soc_twitter.png")
 
-    &_google > a
-      background: url("../icons/soc_google.png") no-repeat
-      display: block
-      width: rem(20px)
-      height: rem(20px)
+    &_google
+      +social-blocks("../icons/soc_google.png")
 
-    & > li
-      display: inline-block
-      position: relative
-      margin-top: rem(21px)
-      margin-left: 4px
+    &
+      li
+        display: inline-block
+        position: relative
+        margin-top: rem(21px)
+        margin-left: 4px

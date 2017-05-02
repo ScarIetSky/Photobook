@@ -15,7 +15,7 @@ html {
     list-style-type: none;
     padding: 0;
     margin-left: 11px; }
-    .header__navigation_logout > a {
+    .header__navigation_logout {
       background: url("../images/off.png") no-repeat;
       display: block;
       width: 1.3125rem;
@@ -23,7 +23,7 @@ html {
       position: relative;
       left: 10px;
       top: 10px; }
-    .header__navigation_profile > a {
+    .header__navigation_profile {
       background: url("../images/no_photo.png") no-repeat;
       background-size: contain;
       display: block;
@@ -32,7 +32,7 @@ html {
       position: relative;
       left: 3px;
       top: 4px; }
-    .header__navigation_edit > a {
+    .header__navigation_edit {
       background: url("../images/edit.png") no-repeat;
       display: block;
       width: 1.3125rem;
@@ -68,32 +68,32 @@ html {
     list-style-type: none;
     padding: 0;
     margin: 0 5.625rem; }
-    .header__socials_email > a {
+    .header__socials_email {
       background: url("../icons/soc_email.png") no-repeat;
       display: block;
       width: 1.25rem;
       height: 1.25rem; }
-    .header__socials_facebook > a {
+    .header__socials_facebook {
       background: url("../icons/soc_fb.png") no-repeat;
       display: block;
       width: 1.25rem;
       height: 1.25rem; }
-    .header__socials_vk > a {
+    .header__socials_vk {
       background: url("../icons/soc_vk.png") no-repeat;
       display: block;
       width: 1.25rem;
       height: 1.25rem; }
-    .header__socials_twitter > a {
+    .header__socials_twitter {
       background: url("../icons/soc_twitter.png") no-repeat;
       display: block;
       width: 1.25rem;
       height: 1.25rem; }
-    .header__socials_google > a {
+    .header__socials_google {
       background: url("../icons/soc_google.png") no-repeat;
       display: block;
       width: 1.25rem;
       height: 1.25rem; }
-    .header__socials > li {
+    .header__socials li {
       display: inline-block;
       position: relative;
       margin-top: 1.3125rem;
@@ -133,3 +133,85 @@ html {
     text-align: center;
     font-size: 1.875rem;
     line-height: 2.25rem; }
+  .world__gallery_margin {
+    margin: 1.875rem 10px 0; }
+  .world__gallery_img {
+    width: 18.75rem;
+    height: 12.5rem; }
+
+.user-info_margin {
+  margin-left: 0.75rem; }
+
+.user-info__avatar {
+  background: url("../images/no_photo.png") no-repeat;
+  width: 3.125rem;
+  height: 3.125rem; }
+  .user-info__avatar_float {
+    float: left; }
+
+.user-info__title {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  display: block;
+  width: 15rem; }
+  .user-info__title_padding {
+    padding: 10px;
+    margin-left: 16px; }
+
+.user-info__stats {
+  list-style-type: none;
+  margin: 7px 0 0 3.75rem; }
+  .user-info__stats_comments {
+    background: url("../icons/comments.svg") no-repeat;
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem; }
+  .user-info__stats_likes {
+    background: url("../icons/heart.svg") no-repeat;
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem; }
+  .user-info__stats li {
+    display: inline-block;
+    padding-left: 1.5625rem; }
+
+.user-info__album {
+  font-size: 0.875rem;
+  line-height: 1.125rem; }
+  .user-info__album:before {
+    content: '';
+    float: left;
+    background: url("../icons/album.svg") no-repeat;
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 3.125rem;
+    padding-left: 10px; }
+  .user-info__album_edit {
+    content: '';
+    float: left;
+    background: url("../icons/edit.svg") no-repeat;
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.625rem; }
+    .user-info__album_edit-margin {
+      margin: 10px 0; }
+
+.footer {
+  width: 20rem;
+  height: 15rem;
+  background: #000; }
+  .footer_up-arrow {
+    width: 1.875rem;
+    height: 1.5625rem;
+    display: block;
+    background: url("../iconcs/top.png") no-repeat;
+    margin: 0 auto; }
+  .footer__description {
+    color: #ffffff;
+    width: 16.5rem;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    margin: 0 auto;
+    text-align: center; }

@@ -11,9 +11,9 @@
 <section class="content">
     <header class="header">
         <ul class="header__navigation">
-            <li class="header__navigation_logout"><a href="#"></a></li>
-            <li class="header__navigation_profile"><a href="#"></a></li>
-            <li class="header__navigation_edit"><a href="#"></a></li>
+            <li><a href="#" class="header__navigation_logout"></a></li>
+            <li><a href="#" class="header__navigation_profile"></a></li>
+            <li><a href="#" class="header__navigation_edit"></a></li>
         </ul>
 
         <div class="header__user">
@@ -23,11 +23,11 @@
         </div>
 
         <ul class="header__socials">
-            <li class="header__socials_email"><a href="#"></a></li>
-            <li class="header__socials_facebook"><a href="#"></a></li>
-            <li class="header__socials_google"><a href="#"></a></li>
-            <li class="header__socials_twitter"><a href="#"></a></li>
-            <li class="header__socials_vk"><a href="#"></a></li>
+            <li><a href="#" class="header__socials_email"></a></li>
+            <li><a href="#" class="header__socials_facebook"></a></li>
+            <li><a href="#" class="header__socials_google"></a></li>
+            <li><a href="#" class="header__socials_twitter"></a></li>
+            <li><a href="#" class="header__socials_vk"></a></li>
         </ul>
     </header>
     
@@ -40,7 +40,42 @@
 
     <section class="world">
         <h2 class="world-h2">Новое в мире</h2>
+
+        <div class="world__gallery world__gallery_margin">
+            <img src="src/images/photo.jpg" alt="picture" class="world__gallery_img">
+
+            <div class="user-info user-info_margin">
+                <div class="user-info__avatar user-info__avatar_float"></div>
+                <span class="user-info__title user-info__title_padding">Lorem ipsum dolor sit ame, consectetur adipisicing elit.</span>
+                <span class="user-info__album user-info__album_margin">Lorem ipsum dolor sit ame.</span>
+                <ul class="user-info__stats">
+                    <li class="user-info__stats_comments">0</li>
+                    <li class="user-info__stats_likes">0</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <section class="world">
+        <h2 class="world-h2">Мои альбомы</h2>
+
+        <div class="world__gallery world__gallery_margin">
+            <img src="src/images/photo.jpg" alt="picture" class="world__gallery_img">
+            <div class="user-info__album_edit-margin">
+                <a href="#" class="user-info__album_edit"></a>
+                <span class="user-info__album user-info__album_margin">Lorem ipsum dolor sit ame.</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <a href="#" class="footer_up-arrow"></a>
+        <p class="footer__description">Перед вами сервис, который поможет вам организовать свои фотографии
+            в альбомы и поделиться ими со всем миром!</p>
+    </section>
+
+
 </section>
 </body>
 </html>
