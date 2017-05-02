@@ -4,114 +4,115 @@ html
 .body
   width: rem(320px)
 
-.logout > a
-  background: url("../images/off.png") no-repeat
-  display: block
-  width: rem(21px)
-  height: rem(21px)
-  position: relative
-  left: 10px
-  top: 10px
-
-.profile > a
-  background: url("../images/no_photo.png") no-repeat
-  background-size: contain
-  display: block
-  width: rem(50px)
-  height: rem(50px)
-  position: relative
-  left: 3px
-  top: 4px
-
-.edit > a
-  background: url("../images/edit.png") no-repeat
-  display: block
-  width: rem(21px)
-  height: rem(21px)
-  position: relative
-  left: 10px
-  top: 10px
-
-.email > a
-  background: url("../icons/soc_email.png") no-repeat
-  display: block
-  width: rem(20px)
-  height: rem(20px)
-
-.facebook > a
-  background: url("../icons/soc_fb.png") no-repeat
-  display: block
-  width: rem(20px)
-  height: rem(20px)
-
-.vk > a
-  background: url("../icons/soc_vk.png") no-repeat
-  display: block
-  width: rem(20px)
-  height: rem(20px)
-
-.twitter > a
-  background: url("../icons/soc_twitter.png") no-repeat
-  display: block
-  width: rem(20px)
-  height: rem(20px)
-
-.google > a
-  background: url("../icons/soc_google.png") no-repeat
-  display: block
-  width: rem(20px)
-  height: rem(20px)
-
-
-
 .content
   width: rem(320px)
 
 
-  &__header
-    width: rem(320px)
-    height: rem(240px)
-    background: url("../images/header_bg.jpg") no-repeat
+.header
+  width: rem(320px)
+  height: rem(240px)
+  background: url("../images/header_bg.jpg") no-repeat
 
-    &--navigation
-      list-style-type: none
-      padding: 0
-      margin-left: 11px
+  &__navigation
+    list-style-type: none
+    padding: 0
+    margin-left: 11px
 
-      & > li
-        display: inline-block
-        position: relative
-        margin-top: rem(21px)
+    &_logout > a
+      background: url("../images/off.png") no-repeat
+      display: block
+      width: rem(21px)
+      height: rem(21px)
+      position: relative
+      left: 10px
+      top: 10px
 
-        &:nth-child(2n + 1)
-          width: rem(40px)
-          height: rem(40px)
-          background: #ffffff
-          border-radius: 50%
+    &_profile > a
+      background: url("../images/no_photo.png") no-repeat
+      background-size: contain
+      display: block
+      width: rem(50px)
+      height: rem(50px)
+      position: relative
+      left: 3px
+      top: 4px
 
-        &:nth-child(2n)
-          width: rem(55px)
-          height: rem(55px)
-          background: #ffffff
-          border-radius: 50%
-          margin: 0 rem(79px)
+    &_edit > a
+      background: url("../images/edit.png") no-repeat
+      display: block
+      width: rem(21px)
+      height: rem(21px)
+      position: relative
+      left: 10px
+      top: 10px
 
-    &--user
-      text-align: center
-      color: #ffffff
-      &-name
-        font-size: rem(21px)
-        line-height: rem(24px)
-      &-name
-        font-size: rem(14px)
-        line-height: rem(16px)
+    & > li
+      display: inline-block
+      position: relative
+      margin-top: rem(21px)
 
-    &--socials
-      list-style-type: none
-      padding: 0
-      margin: 0 rem(90px)
-      & > li
-        display: inline-block
-        position: relative
-        margin-top: rem(21px)
-        margin-left: 4px
+      &:nth-child(2n + 1)
+        width: rem(40px)
+        height: rem(40px)
+        background: #ffffff
+        border-radius: 50%
+
+      &:nth-child(2n)
+        width: rem(55px)
+        height: rem(55px)
+        background: #ffffff
+        border-radius: 50%
+        margin: 0 rem(79px)
+
+  &__user
+    text-align: center
+    color: #ffffff
+
+    &_name
+      font-size: rem(21px)
+      line-height: rem(24px)
+
+    &_about
+      font-size: rem(14px)
+      line-height: rem(16px)
+
+  &__socials
+    list-style-type: none
+    padding: 0
+    margin: 0 rem(90px)
+
+    &_email > a
+      background: url("../icons/soc_email.png") no-repeat
+      display: block
+      width: rem(20px)
+      height: rem(20px)
+
+    &_facebook > a
+      background: url("../icons/soc_fb.png") no-repeat
+      display: block
+      width: rem(20px)
+      height: rem(20px)
+
+    &_vk > a
+      background: url("../icons/soc_vk.png") no-repeat
+      display: block
+      width: rem(20px)
+      height: rem(20px)
+
+    &_twitter > a
+      background: url("../icons/soc_twitter.png") no-repeat
+      display: block
+      width: rem(20px)
+      height: rem(20px)
+
+    &_google > a
+      background: url("../icons/soc_google.png") no-repeat
+      display: block
+      width: rem(20px)
+      height: rem(20px)
+
+    & > li
+      display: inline-block
+      position: relative
+      margin-top: rem(21px)
+      margin-left: 4px
