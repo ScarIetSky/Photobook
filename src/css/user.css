@@ -99,64 +99,32 @@ html {
       background: url("../icons/soc_email.png") no-repeat;
       display: block;
       width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
+      height: 1.25rem; }
     .header__socials_facebook {
       background: url("../icons/soc_fb.png") no-repeat;
       display: block;
       width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
+      height: 1.25rem; }
     .header__socials_vk {
       background: url("../icons/soc_vk.png") no-repeat;
       display: block;
       width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
+      height: 1.25rem; }
     .header__socials_twitter {
       background: url("../icons/soc_twitter.png") no-repeat;
       display: block;
       width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
+      height: 1.25rem; }
     .header__socials_google {
       background: url("../icons/soc_google.png") no-repeat;
       display: block;
       width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
+      height: 1.25rem; }
     .header__socials li {
       display: inline-block;
       position: relative;
       margin-top: 1.3125rem;
       margin-left: 4px; }
-
-.search {
-  height: 60px;
-  background: #dddddd;
-  position: relative; }
-  .search:after {
-    content: "";
-    clear: both;
-    display: table; }
-  .search-input {
-    width: 18.75rem;
-    height: 2.5rem;
-    box-sizing: border-box;
-    margin: 10px 10px;
-    padding-left: 15px;
-    border-radius: 1.25rem;
-    border: 1px solid #dddddd;
-    background: #fff;
-    outline: none; }
-  .search-button {
-    width: 2.625rem;
-    height: 2.625rem;
-    background: url("../icons/search.svg") no-repeat;
-    border: none;
-    position: absolute;
-    top: 1.25rem;
-    right: 0; }
 
 .stats {
   height: 2.8125rem;
@@ -236,20 +204,17 @@ html {
     background: url("../icons/comments.svg") no-repeat;
     display: block;
     width: 1.25rem;
-    height: 1.25rem;
-    background-size: contain; }
+    height: 1.25rem; }
   .user-info__stats_photos {
     background: url("../icons/cam.svg") no-repeat;
     display: block;
     width: 1.25rem;
-    height: 1.25rem;
-    background-size: contain; }
+    height: 1.25rem; }
   .user-info__stats_likes {
     background: url("../icons/heart.svg") no-repeat;
     display: block;
     width: 1.25rem;
-    height: 1.25rem;
-    background-size: contain; }
+    height: 1.25rem; }
   .user-info__stats li {
     display: inline-block;
     padding-left: 1.875rem; }
@@ -267,7 +232,6 @@ html {
     display: block;
     width: 1.25rem;
     height: 1.25rem;
-    background-size: contain;
     margin-left: 1.25rem;
     padding-left: 10px; }
   .user-info__album_edit {
@@ -277,7 +241,6 @@ html {
     display: block;
     width: 1.25rem;
     height: 1.25rem;
-    background-size: contain;
     position: relative;
     top: 10px;
     right: 12px; }
@@ -296,37 +259,6 @@ html {
   text-align: center;
   cursor: pointer;
   user-select: none; }
-
-.user_gallery {
-  margin: 0 0.3125rem; }
-  .user_gallery__stats {
-    display: block;
-    position: absolute;
-    transform: translate(-3.125rem, -3.125rem); }
-    .user_gallery__stats_comments {
-      background: url("../icons/white-comments.png") no-repeat;
-      display: block;
-      width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
-    .user_gallery__stats_likes {
-      background: url("../icons/white-heart.png") no-repeat;
-      display: block;
-      width: 1.25rem;
-      height: 1.25rem;
-      background-size: contain; }
-  .user_gallery-margin {
-    margin: 1.875rem 0 0 0.625rem; }
-  .user_gallery-add {
-    display: inline-block;
-    width: 2.25rem;
-    height: 2.25rem;
-    border: 2px solid #ddd;
-    border-radius: 50%;
-    background: #f6f6f6 url("../icons/add.svg") no-repeat 50% 50%;
-    position: absolute;
-    right: 0.3125rem;
-    bottom: 0.1875rem; }
 
 .footer {
   width: 20rem;

@@ -1,0 +1,27 @@
+.user_gallery
+  margin: 0 rem(5px)
+
+  &__stats
+    display: block
+    position: absolute
+    transform: translate(rem(-50px),rem(-50px))
+
+    &_comments
+      +social-blocks("../icons/white-comments.png")
+
+    &_likes
+      +social-blocks("../icons/white-heart.png")
+
+  &-margin
+    margin: rem(30px) 0 0 rem(10px)
+
+  &-add
+    display: inline-block
+    width: rem(36px)
+    height: rem(36px)
+    border: 2px solid #ddd
+    border-radius: 50%
+    background: #f6f6f6 url("../icons/add.svg") no-repeat 50% 50%
+    position: absolute
+    right: rem(5px)
+    bottom: rem(3px)

@@ -1,0 +1,26 @@
+$htmlFont: 16px;
+$footerColor: #3e4049;
+$authorColor: #2667d8;
+$darkColor: #f2f0e8;
+$lightColor: #fbfcfa;
+
+@function rem($px){
+  @return $px / $htmlFont + 0rem
+}
+
+@mixin social-blocks($url) {
+  background: url($url) no-repeat;
+  display: block;
+  width: rem(20px);
+  height: rem(20px);
+}
+
+
+@import "global.sass";
+@import "header.sass";
+@import "stats.sass";
+@import "main-gallery.sass";
+@import "footer.sass";
+
+
+

@@ -13,13 +13,16 @@ $lightColor: #fbfcfa;
   display: block;
   width: rem(20px);
   height: rem(20px);
+  background-size: contain
 }
 
 
 @import "global.sass";
 @import "header.sass";
 @import "search.sass";
+@import "stats.sass";
 @import "main-gallery.sass";
+@import "user-gallery.sass";
 @import "footer.sass";
 
 
